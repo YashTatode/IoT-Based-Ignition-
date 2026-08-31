@@ -9,84 +9,87 @@ Smart Remote Ignition Control & Monitoring System
 
 </div>
 
-An IoT-based embedded system developed for rocket ignition control and monitoring. The project integrates custom hardware with a software control interface to provide a controlled and monitored ignition system.
+An IoT-based embedded system developed for rocket ignition control and monitoring using an ESP32 microcontroller and the Blynk IoT platform.
+
+The system provides a connected interface for monitoring system status and controlling the ignition system remotely.
 
 🔧 Hardware & PCB
-<p align="center"> <img src="Ignition_System_PCB.jpeg" alt="Rocket Ignition System" width="850"> </p>
+<p align="center"> <img src="Ignition_System_PCB.jpeg" alt="Rocket Ignition System PCB" width="850"> </p>
 
-Custom-designed PCB for the rocket ignition control system.
+Custom-designed PCB developed for the rocket ignition control system.
 
-🖥️ Software Control Interface
+🖥️ Ignition System
 <p align="center"> <img src="Ignition_System.jpeg" alt="Rocket Ignition System" width="850"> </p>
 
-Software interface for system control and status monitoring.
+Overview of the developed rocket ignition system.
 
 ✨ Features
-IoT-based remote control
-Custom PCB-based hardware
-Rocket ignition control
-Real-time system status monitoring
+ESP32-based control system
+IoT-enabled remote monitoring
+Remote ignition control
+Blynk mobile interface
+Real-time system status
+Custom PCB design
 Wireless communication
 Safety-focused control architecture
-Modular system design
 🛠️ Technologies Used
 Category	Technology
-Controller	Microcontroller
-Programming	Embedded C
-Communication	IoT / Wireless Communication
+Microcontroller	ESP32
+Programming	C++
+IoT Platform	Blynk
+Development	Arduino IDE
+Communication	Wi-Fi
 Hardware	Custom PCB
-Monitoring	Software Control Interface
 Application	Rocket Ignition System
 🔄 System Architecture
-        Software Control Interface
-                    │
-                    │ Wireless / IoT
-                    ▼
-              Control Unit
-                    │
-                    │ Control Signal
-                    ▼
-             Ignition Circuit
-                    │
-                    ▼
+        Blynk Mobile Application
+                  │
+                  │ Wi-Fi / Internet
+                  ▼
+               ESP32
+                  │
+                  │ Control Signal
+                  ▼
+          Ignition Control Circuit
+                  │
+                  ▼
              Rocket Ignition
 
 📁 Project Structure
-IoT-Based-Ignition/
+IoT-Based-Ignition-/
 │
-├── Project Code
-│   ├── pcb.jpg
-│   └── software.png
-├── README.md
-
+├── Ignition_System.cpp
+├── Ignition_System.jpeg
+├── Ignition_System_PCB.jpeg
+└── README.md
 
 🚀 Getting Started
 1. Clone the Repository
-git clone https://github.com/YashTatode/IoT-Based-Ignition.git
+git clone https://github.com/YashTatode/IoT-Based-Ignition-.git
 
 2. Open the Project
 
-Open the firmware and software components using their respective development environments.
+Open Ignition_System.cpp using the Arduino IDE or a compatible ESP32 development environment.
 
-3. Configure the Hardware
+3. Configure Blynk
 
-Connect the controller, communication interface, and ignition control hardware according to the project design.
+Configure the required Blynk credentials and Wi-Fi settings in the firmware.
 
 4. Upload the Firmware
 
-Build and upload the firmware to the microcontroller.
+Select the appropriate ESP32 board and upload the firmware.
 
-5. Run the Control Software
+5. Connect to Blynk
 
-Launch the software interface and establish communication with the control unit.
+Connect the ESP32 to the configured Wi-Fi network and use the Blynk application to monitor and control the system.
 
 🔮 Future Improvements
-Advanced telemetry
+Dedicated ground-station interface
 Long-range communication
-Dedicated ground-station software
-Data logging
-Additional safety interlocks
-Real-time diagnostics
+Advanced telemetry
+Event and data logging
+Additional hardware safety interlocks
+Real-time system diagnostics
 👨‍💻 Author
 
 Yash Tatode
