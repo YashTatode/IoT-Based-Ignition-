@@ -112,17 +112,6 @@ Select the appropriate ESP32 board and upload the firmware.
 
 ### 5. Connect to Blynk
 Connect the ESP32 to the configured Wi-Fi network and use the Blynk application to monitor and control the system.
-
----
-
-## 🔮 Future Improvements
-- Dedicated ground-station interface
-- Long-range communication
-- Advanced telemetry
-- Event and data logging
-- Additional hardware safety interlocks
-- Real-time system diagnostics
-
 ---
 
 ## 👨‍💻 Author
