@@ -12,12 +12,12 @@ Smart Remote Ignition Control & Monitoring System
 An IoT-based embedded system developed for rocket ignition control and monitoring. The project integrates custom hardware with a software control interface to provide a controlled and monitored ignition system.
 
 🔧 Hardware & PCB
-<p align="center"> <img src="Images/pcb.jpg" alt="Rocket Ignition System PCB" width="850"> </p>
+<p align="center"> <img src="Ignition_System_PCB.jpeg" alt="Rocket Ignition System" width="850"> </p>
 
 Custom-designed PCB for the rocket ignition control system.
 
 🖥️ Software Control Interface
-<p align="center"> <img src="Images/software.png" alt="Rocket Ignition Control Interface" width="850"> </p>
+<p align="center"> <img src="Ignition_System.jpeg" alt="Rocket Ignition System" width="850"> </p>
 
 Software interface for system control and status monitoring.
 
